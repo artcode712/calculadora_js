@@ -1,2 +1,52 @@
 
+body{
 
+margin-top: 50px;
+
+}
+
+button{
+
+
+}
+
+.resul{
+
+
+margin-top: 60px;
+
+}
+
+.func{
+
+margin-top: 50px;
+
+}
+
+.quadrado{
+
+background-color: rgb(64, 109, 146);
+width: 350px;
+height: 350px;
+position: absolute;
+left: 750px;
+top: 145px;
+
+border-radius: 10px;
+}
+
+input{
+
+width: 130px;
+padding: 5px;
+ position: relative;
+    left: 770px;
+    top: 70px;
+}
+
+h2{
+
+left: 800px;
+position: absolute;
+
+}
