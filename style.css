@@ -22,7 +22,7 @@ top: 180px;
 
 .quadrado{
 background-color: rgb(64, 87, 150);
-height: 250px;
+height: 235px;
 }
 
 input{
@@ -45,6 +45,15 @@ p{
 top: 190px;
     left: 855px;
 position: absolute
+
+
+}
+
+.curio{
+
+position: absolute;
+left: 500px;
+top: 60px;
 
 
 }
