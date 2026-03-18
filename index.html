@@ -7,6 +7,9 @@
 </head>
 <body>
     
+<div class="quadrado" >
+
+
 <h2> Calculadora simples </h2>
 
 
@@ -14,21 +17,20 @@
 <input type="number" id="num2">
 
 
-<div class="func" >
-<button onclick="somar('mais')"> + </button>
-<button onclick="subtrair('menos')"> - </button>
-<button onclick="multiplicar('vezes')"> x </button>
-<button onclick="dividir('divisao')"> ÷ </button>
-</div>
+<select name="soma" id="sinais">
+<option value="soma">+</option>
+<option value="subtracao">-</option>
+<option value="multiplicacao">*</option>
+<option value="divisao">/</option>
+</select>
 
 
-<div class="resul" >
 
-<button onclick="resultado('resultado')"> resultado </button>
+    <button onclick="valor()">=</button>
 
-</div>
+    <p>Resultado: <span id="Resultado">0</span></p>
 
-<div class="quadrado" >
+
 
 
 
